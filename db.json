@@ -1,0 +1,20 @@
+{
+  "personnes": [
+    {
+      "id": "1",
+      "first_name": "ddddd",
+      "last_name": "ddddd",
+      "email": "ddddd",
+      "address": "ddddd",
+      "sport_type": "dddddd"
+    },
+    {
+      "id": "0",
+      "first_name": "foued",
+      "last_name": "naffeti",
+      "email": "foued@gmail.com",
+      "address": "kkzu",
+      "sport_type": "course"
+    }
+  ]
+}

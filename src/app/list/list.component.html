@@ -1,0 +1,39 @@
+<div >
+ 
+<table border="1" style="width: 40%">
+  <tr>
+    <th>Id</th>
+    <th>FIRST_Name</th>
+    <th>LAST_NAME</th>
+    <th>Email</th>
+    <th>ADRESS</th>
+    <th>SPORT_TYPE</th>
+    <th colspan="2">Option</th>
+  </tr>
+  <tr *ngFor="let per of personnes">
+    <td>{{ per.id }}</td>
+    <td>{{ per.first_name }}</td>
+    <td>{{ per.last_name }}</td>
+    <td>{{ per.email }}</td>
+    <td>{{ per.address }}</td>
+    <td>{{ per.sport_type }}</td>
+    <td><button  (click)="delPeronne(per.id)">delete</button></td>
+    <td>
+      <button [routerLink]="['/modifier/', per.id]">
+         update
+      </button>
+    </td>
+  </tr>
+  
+</table>
+</div>
+<div *ngIf="!authService.isLoggedIn">
+  <p style="font-size: 30px; text-align: center; padding: 50px;">Only admin can access to the dashboard!</p>
+</div>
+<div>
+  <!-- Additional content goes here -->
+</div>
+
+<div>
+  <router-outlet></router-outlet>
+</div>

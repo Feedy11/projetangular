@@ -1,0 +1,43 @@
+<!-- footer.component.html -->
+<footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section contact-section">
+          <h3>Contact Us</h3>
+          <p>Email:fadinaffeti1@gmail.com</p>
+          <p>Phone: +216 21114558</p>
+          <p>Address: 123448</p>
+        </div>
+        <div class="footer-section quick-links-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a >Home</a></li>
+            <li><a >Classes</a></li>
+            <li><a>Membership</a></li>
+            
+          </ul>
+        </div>
+        <div class="footer-section social-section">
+          <h3>Follow Us</h3>
+          <p>Stay connected on social media for updates and promotions.</p>
+          <div class="social-icons">
+            <!-- Add your social media icons and links here -->
+            <a ><i class="fa fa-facebook-f"></i></a>
+            <a ><i class="fa fa-twitter"></i></a>
+            <a ><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="admin">
+          <h3>Admin login</h3>
+          <label for="username">Username:</label>
+          <input type="text" id="username" [(ngModel)]="username" />
+          <br />
+          <label for="password">Password:</label>
+          <input type="password" id="password" [(ngModel)]="password" />
+          <br />
+          <button (click)="login()">Login</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+  

@@ -1,0 +1,66 @@
+/* personne-form.component.css */
+
+.personne-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .personne-form::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5; /* Adjust the opacity as needed */
+    z-index: -1;
+  }
+  
+  h3 {
+    padding: 70px;
+    text-align: center;
+    color: #f14014;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  h2{
+    margin-left: 450px;
+    font-size: 2em;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: black;
+    padding: 50px;
+  }

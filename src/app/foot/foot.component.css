@@ -1,0 +1,94 @@
+/* footer.component.css */
+
+.site-footer {
+    background-color: black;
+    color: #ecf0f1;
+    padding-top: 50px ;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0px;
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .contact-section p {
+    font-size: 0.9rem;
+  }
+  
+  .quick-links-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links-section li {
+    margin-bottom: 8px;
+  }
+  
+  a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #3498db;
+  }
+  
+  .social-section p {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    font-size: 50px;
+    color: #ecf0f1;
+    
+  }
+  
+  .social-icons a:hover {
+    color: #3498db;
+  }
+  p{
+    font-size: 20px;
+    color: #ecf0f1;
+  }
+  .admin {
+    color: white; /* Set text color to white for better visibility */
+    padding: 10px; /* Add padding for spacing inside the div */
+    
+    margin-top: 0px;
+  }
+  
+  .admin label {
+    display: block; /* Make labels display in block to stack them vertically */
+    margin-bottom: 5px; /* Add some space below each label */
+  }
+  
+  .admin input {
+    margin-bottom: 7px; /* Add space below each input field */
+  }
+  
+  .admin button {
+    background-color: orangered; /* Dark gray color for the button */
+    color: white; /* Text color for the button */
+    padding: 8px 15px; /* Add padding to the button for better appearance */
+    cursor: pointer; /* Change cursor to pointer on hover for better UX */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Add some border-radius for rounded corners */
+  }
+  
+  .admin button:hover {
+    background-color: tomato; /* Darker gray color on hover */
+  }
+  

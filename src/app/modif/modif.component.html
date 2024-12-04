@@ -1,0 +1,30 @@
+
+<div>
+    <h2> Member Update</h2>
+    <form (ngSubmit)="updatePersonne()" #personneForm="ngForm" class="personne-form">
+      <!-- Add form fields for updating employee details -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="personne.first_name" >
+  
+      <label for="status">last_name</label>
+      <input type="text" id="status" name="status" [(ngModel)]="personne.last_name" >
+
+      <label for="phone">Email</label>
+      <input type="text" id="email" name="email" [(ngModel)]="personne.email" >
+    
+      <label for="phone">Address</label>
+      <input type="text" id="phone" name="phone" [(ngModel)]="personne.address" ><br>
+      
+      <label for="phone">Sport</label>
+      <input type="text" id="phone" name="phone" [(ngModel)]="personne.sport_type" ><br>
+  
+    
+      <button  type="submit" [disabled]="personneForm.invalid">
+        <i class="fa fa-pencil"></i> Update
+      </button>
+      
+      
+    </form>
+    
+  </div>
+  
